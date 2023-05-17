@@ -5,7 +5,7 @@ import { ReactComponent as PlusIcon } from "../assets/plus.svg";
 import { IMovie } from "../types/movie";
 import { ITv } from "../types/tv";
 
-const IMG_URL = import.meta.env.VITE_IMG_URL;
+const IMG_URL = process.env.REACT_APP_IMG_URL;
 
 export default function Info(props: {
     movie: IMovie | null | void;

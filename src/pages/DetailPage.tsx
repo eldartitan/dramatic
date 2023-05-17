@@ -18,7 +18,7 @@ import { ICredits } from "../types/credits";
 import { IVideos } from "../types/videos";
 import { ISimilar } from "../types/similar";
 
-const IMG_URL = import.meta.env.VITE_IMG_URL;
+const IMG_URL = process.env.REACT_APP_IMG_URL;
 
 export default function DetailPage() {
     const location = useLocation();

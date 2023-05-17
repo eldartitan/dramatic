@@ -10,7 +10,7 @@ import { ITrending } from "../types/movieTrending";
 import { IImages } from "../types/images";
 import { IMovie } from "../types/movie";
 
-const IMG_URL = import.meta.env.VITE_IMG_URL;
+const IMG_URL = process.env.REACT_APP_IMG_URL;
 
 export default function MainPage() {
     const [movie, setMovie] = useState<IMovie | null | void>(null);

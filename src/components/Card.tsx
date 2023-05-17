@@ -6,7 +6,7 @@ import { ReactComponent as EyeIcon } from "../assets/eye.svg";
 import ResultPopular from "../types/moviePopular";
 import ResultTrending from "../types/movieTrending";
 
-const IMG_URL = import.meta.env.VITE_IMG_URL;
+const IMG_URL = process.env.REACT_APP_IMG_URL;
 
 const Card: FC<{
     movies: ResultPopular | null;
