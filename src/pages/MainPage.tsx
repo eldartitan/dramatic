@@ -29,7 +29,7 @@ export default function MainPage() {
     return (
         <>
             <div
-                className="font-['montserrat']"
+                className="font-montserrat"
                 style={{
                     backgroundImage: `url(${
                         IMG_URL + "original" + movie?.backdrop_path

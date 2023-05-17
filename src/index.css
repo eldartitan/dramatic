@@ -4,9 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-font-family: "Griffy", cursive;
-font-family: "Roboto", sans-serif;
-
 body {
     background: rgba(22, 18, 20, 1);
 }

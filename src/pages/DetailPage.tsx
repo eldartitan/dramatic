@@ -64,7 +64,7 @@ export default function DetailPage() {
                 </div>
             )}
             <div
-                className="font-['montserrat']"
+                className="font-montserrat"
                 style={{
                     backgroundImage: bg,
                     backgroundSize: "cover",

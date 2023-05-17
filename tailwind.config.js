@@ -2,6 +2,11 @@
 export default {
     content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
     theme: {
+        fontFamily: {
+            "griffy": ["Griffy", "cursive"],
+            "montserrat": ["Montserrat", "sans-serif"],
+            "roboto": ["Roboto", "sans-serif"],
+        },
         extend: {
             colors: {
                 "metallic-yellow": "#FFC907",

@@ -24,7 +24,7 @@ export default function Info(props: {
                         className="h-[180px] max-w-[424px] pr-auto clear-left object-left object-contain w-full"
                     />
                 ) : (
-                    <h1 className="text-4xl font-['montserrat'] max-w-[724px]">{props.tv?.name || props.movie?.title}</h1>
+                    <h1 className="text-4xl font-montserrat max-w-[724px]">{props.tv?.name || props.movie?.title}</h1>
                 )}
             </div>
 
