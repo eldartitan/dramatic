@@ -1,5 +1,5 @@
 import { ICredits } from "../types/credits";
-const IMG_URL = process.env.REACT_APP_IMG_URL;
+const IMG_URL = import.meta.env.VITE_IMG_URL;
 
 export default function Credits(props: {credits: ICredits | null | void}) {
     return (
