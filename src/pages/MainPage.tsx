@@ -27,7 +27,7 @@ export default function MainPage() {
     }, []);
 
     return (
-        <>
+        <div>
             <div
                 className="font-montserrat"
                 style={{
@@ -65,7 +65,7 @@ export default function MainPage() {
                 </div>
             </div>
             <div className="bottom-blur h-[347px] w-full mt-[-122px] xl:mb-0 2xl:mb-28"></div>
-            <div className="pl-32 ml-6 mb-11 mt-32 flex flex-col text-lg font-bold">
+            <div className="pl-32 ml-6 mb-11 mt-28 flex flex-col text-lg font-bold">
                 <div>RECOMMENDED FOR YOU</div>
                 <div className="flex gap-[23px] mt-[19px] mb-[22px]">
                     <Button>Hindi</Button>
@@ -78,6 +78,6 @@ export default function MainPage() {
                     </Button>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
