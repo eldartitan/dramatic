@@ -8,7 +8,7 @@ export default function Header() {
         <div className="absolute h-20 header-gradient w-full flex items-center px-8 font-bold text-wild-blue-yonder text-base top-0 z-10">
             <Link
                 to={"/"}
-                className="text-4xl font-normal text-metallic-yellow font-griffy"
+                className="text-4xl font-normal text-metallic-yellow font-['griffy']"
             >
                 DRAMATIC
             </Link>

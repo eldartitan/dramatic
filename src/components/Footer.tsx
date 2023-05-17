@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <div className="bg-chinese-black font-roboto text-sm text-white">
+        <div className="bg-chinese-black font-['roboto'] text-sm text-white">
             <div className="container m-auto pt-24 flex gap-24">
                 <div>
                     <select
@@ -15,7 +15,7 @@ export default function Footer() {
                 <div>
                     <ul>
                         <li>
-                            <h1 className="text-base mb-[13px] font-montserrat font-semibold">NAVIGATION</h1>
+                            <h1 className="text-base mb-[13px] font-['montserrat'] font-semibold">NAVIGATION</h1>
                         </li>
                         <li>
                             <h1>
@@ -52,7 +52,7 @@ export default function Footer() {
                 <div>
                     <ul>
                         <li>
-                            <h1 className="text-base mb-[13px] font-montserrat font-semibold">LEGAL</h1>
+                            <h1 className="text-base mb-[13px] font-['montserrat'] font-semibold">LEGAL</h1>
                         </li>
                         <li>
                             <button>Privacy Policy</button>
@@ -71,7 +71,7 @@ export default function Footer() {
                 <div>
                     <ul>
                         <li>
-                            <h1 className="text-base mb-[13px] font-montserrat font-semibold">TALK TO US</h1>
+                            <h1 className="text-base mb-[13px] font-['montserrat'] font-semibold">TALK TO US</h1>
                         </li>
                         <li>
                             <button>support@ercom.com</button>
@@ -82,7 +82,7 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div>
-                    <h1 className="text-base mb-[13px] font-montserrat font-semibold">FOLLOW US</h1>
+                    <h1 className="text-base mb-[13px] font-['montserrat'] font-semibold">FOLLOW US</h1>
                     <span className="w-[39px] h-p[39px] rounded-full"></span>
                 </div>
             </div>

@@ -12,11 +12,6 @@ export default {
                 "chinese-black": "#161214",
             },
         },
-        fontFamily: {
-            griffy: ["'Griffy'", "cursive"],
-            montserrat: ["'Montserrat'", "sans-serif"],
-            roboto: ["'Roboto'", "sans-serif"],
-        },
     },
     plugins: [],
 };
